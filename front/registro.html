@@ -13,17 +13,21 @@
         <input type = "button" value = "cerrar sesion">
     </p>
     <form action="ejemplo.php" method="get">
-        <p>Nombre: <input type="text" name="nombre" size="25"></p>
-        <p>ApellidoP<input type="text" lastNameP="apellido P" size="25"></p>
-        <p>ApellidoM <input type="text" lastNameM= "apellido M" size="25"></p>
-        <p>Nick <input type = "text" nickname="userName" size="25"></p>
-        <p>Password <input type= "text" pass="contraseña" size="25"></p>
+        <p>Nombre: <input type="text" id = "nombreUsuario" nombreUsuario="nombreUsuario" size="25" required></p>
+        <p>ApellidoP<input type="text" id = "ApellidoP" ApellidoP="ApellidoP" size="25" required></p>
+        <p>ApellidoM <input type="text" id = "ApellidoM" ApellidoM= "ApellidoM M" size="25" required></p>
+        <p>Nick <input type = "text" id = "nickname" nickname="nickname" size="25" required></p>
+        <p>Password <input type= "text" id ="pass" pass="pass" size="25" required></p>
         <p>
           <input type="submit" value="Enviar">
           <input type="reset" value="Borrar">
         </p>
       </form>
-</body>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
 
 
 </html>
